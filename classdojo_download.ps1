@@ -40,7 +40,6 @@ while($url -ne $null -or $feed -ne $null)
             
             # cookie informations
             $cookie.Name = "dojo_login.sid"
-            $cookie.Value = "<insert cookie value here>"
             $cookie.Domain = ".classdojo.com"
             
             $session.Cookies.Add($cookie);
